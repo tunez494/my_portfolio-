@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <h2 class="logo">MyPortfolio</h2>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Hello, I'm <span>Your Name</span></h1>
+    <p>I build modern websites and web applications.</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm a freelance web developer specializing in responsive and user-friendly websites.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>Short description of the project.</p>
+      </div>
+
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>Short description of the project.</p>
+      </div>
+
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>Short description of the project.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <ul class="services-list">
+      <li>Website Development</li>
+      <li>UI/UX Design</li>
+      <li>Bug Fixing</li>
+      <li>Performance Optimization</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
