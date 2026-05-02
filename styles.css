@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+/* NAV */
+header {
+  background: #111;
+  color: #fff;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+}
+
+.hero span {
+  color: yellow;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: yellow;
+  color: black;
+  text-decoration: none;
+}
+
+/* SECTION */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* PROJECTS */
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* SERVICES */
+.services-list {
+  list-style: none;
+}
+
+.services-list li {
+  margin: 10px 0;
+}
+
+/* CONTACT */
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+}
